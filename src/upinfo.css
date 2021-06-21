@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.upinfo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  /* border: 5px solid yellow; */
+}
+.search-bar {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  flex-direction: row;
+}
+.date-day {
+  width: 50%;
+  height: 33%;
+  display: flex;
+  flex-direction: row;
+}
+.date {
+  color: rgb(60, 60, 226);
+  margin-left: 5px;
+}
+.day,
+.dashboard {
+  color: white;
+}
+.upinfo-padder {
+  width: 100%;
+  height: 100%;
+  padding-left: 30px;
+}
+.upinfo-username {
+  color: white;
+  font-size: 12px;
+}
+.login-detail {
+  height: 33%;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 10px;
+}
+.upinfo-dropdown {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.upinfo-profile-pic {
+  margin-left: 15px;
+  transform: scale(1.4);
+}
+.upinfo-notification {
+  margin-right: 20px;
+  transform: scale(1.2);
+}
+.day {
+  padding-top: 4px;
+  font-size: 12px;
+}
+.date {
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 3px;
+}
+.search-button {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.add-button {
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 6px;
+  color: white;
+  font-weight: 500;
+  background-color: rgb(60, 60, 194);
+}
+.search-application {
+  margin-left: 25px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.search-box {
+  margin-left: 15px;
+  font-size: 12px;
+  margin-right: 35px;
+}

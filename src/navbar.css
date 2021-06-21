@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 100%;
+  width: 100%;
+  border-right: 1px solid rgb(47, 47, 47);
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+}
+.navbar-logo {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.navbar-settings {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+.navbar-options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.navbar-icon {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}

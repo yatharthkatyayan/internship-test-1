@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.loading-bar {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+.loading-data {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}
+.loading-bar-name {
+  margin-left: 10px;
+  font-size: 60%;
+  font-weight: 500;
+}
+.loading-bar-load-symbol {
+  width: 60%;
+  height: 100%;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  border-radius: 3px;
+}
+.loading-bar-load {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
